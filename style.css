@@ -6,6 +6,9 @@ header{
 main{
 background-color: rgb(194, 83, 32);
 color: rgb(212, 49, 49);
+text-align: center;/*alianha o texto ao centro*/
+max-width: 8000px;/*largura máxima*/
+margin: 0 auto;/*configura margens*/
 
 }
 footer{
