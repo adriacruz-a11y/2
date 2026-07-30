@@ -1,6 +1,6 @@
 header{
- background-color: rgb(204, 36, 182);/*cor de fundo*/
- color: rgb(20, 159, 201);/*cor da fonte*/ 
+ background-color: rgb(92, 154, 211);/*cor de fundo*/
+ color: rgb(35, 50, 54);/*cor da fonte*/ 
  text-align: center;
  max-width: 800px; 
  margin: 0 auto;
@@ -9,8 +9,8 @@ header{
 
 }
 main{
-background-color: rgb(194, 83, 32);
-color: rgb(212, 49, 49);
+background-color: rgb(46, 36, 136);
+color: rgb(59, 20, 20);
 text-align: center;/*alianha o texto ao centro*/
 max-width: 8000px;/*largura máxima*/
 margin: 0 auto;/*configura margens*/
