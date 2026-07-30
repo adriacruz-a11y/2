@@ -1,6 +1,11 @@
 header{
  background-color: rgb(204, 36, 182);/*cor de fundo*/
- color: rgb(20, 159, 201);/*cor da fonte*/
+ color: rgb(20, 159, 201);/*cor da fonte*/ 
+ text-align: center;
+ max-width: 800px; 
+ margin: 0 auto;
+ padding: 16px;/*espaçamento interno*/
+
 
 }
 main{
