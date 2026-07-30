@@ -19,5 +19,5 @@ margin: 0 auto;/*configura margens*/
 footer{
 background-color: rgb(177, 32, 87);
 color: rgb(5, 15, 59);
-
+border: 5px solid black; 
 }
