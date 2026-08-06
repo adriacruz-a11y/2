@@ -17,6 +17,7 @@ margin: 0 auto;/*espaçamento externo ao redor do elemento*/
 padding: 16px;
 border: 5px solid black;
 
+ display: flex;/*habilita o uso de flex box*/
 }
 footer{
 background-color: rgb(177, 32, 87);/*COR DE FUNDO*/
