@@ -1,25 +1,29 @@
 header{
  background-color: rgb(92, 154, 211);/*cor de fundo*/
  color: rgb(35, 50, 54);/*cor da fonte*/ 
- text-align: center;
- max-width: 800px; 
+ text-align: center;/*alinhar o texto ao centro*/
+ max-width: 800px; /*largura máxima*/
  margin: 0 auto;
  padding: 16px;/*espaçamento interno*/
  border: 5px solid black;
 
 }
 main{
-background-color: rgb(46, 36, 136);
+background-color: rgb(46, 36, 136);/*cor de fundo*/
 color: rgb(59, 20, 20);
-text-align: center;/*alianha o texto ao centro*/
+text-align: center;/*alianhamento do texto */
 max-width: 8000px;/*largura máxima*/
-margin: 0 auto;/*configura margens*/
+margin: 0 auto;/*espaçamento externo ao redor do elemento*/
 padding: 16px;
 border: 5px solid black;
 
 }
 footer{
-background-color: rgb(177, 32, 87);
-color: rgb(5, 15, 59);
+background-color: rgb(177, 32, 87);/*COR DE FUNDO*/
+color: rgb(5, 15, 59);/*cor da fonte*/
 border: 5px solid black; 
+}
+img{
+    width: 80px;/*largura*/
+    height: 80px;/*altura*/
 }
