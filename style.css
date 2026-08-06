@@ -14,9 +14,9 @@ color: rgb(59, 20, 20);
 text-align: center;/*alianhamento do texto */
 max-width: 8000px;/*largura máxima*/
 margin: 0 auto;/*espaçamento externo ao redor do elemento*/
-padding: 16px;
-border: 5px solid black;
-
+ padding: 16px;
+ border: 5px solid black;
+ padding: 16px;/*ESPACAMANTO INTERNO*/
  display: flex;/*habilita o uso de flex box*/
 }
 footer{
