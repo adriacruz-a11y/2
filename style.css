@@ -13,11 +13,12 @@ background-color: rgb(46, 36, 136);/*cor de fundo*/
 color: rgb(59, 20, 20);
 text-align: center;/*alianhamento do texto */
 max-width: 8000px;/*largura máxima*/
-margin: 0 auto;/*espaçamento externo ao redor do elemento*/
+ margin: 0 auto;/*espaçamento externo ao redor do elemento*/
  padding: 16px;
  border: 5px solid black;
  padding: 16px;/*ESPACAMANTO INTERNO*/
  display: flex;/*habilita o uso de flex box*/
+ flex-direction: row;/*orienta os elementos na horizontal na orde 1, 2, 3*/
 }
 footer{
 background-color: rgb(177, 32, 87);/*COR DE FUNDO*/
