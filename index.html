@@ -16,9 +16,23 @@
 <h2> Meu primeiro post </h2>
 <p>Por:Adria horchulhak</p>
 <p>Boas-vindas ao meu blog!</p>
-
+ <button>❤️,<span>0</span></button>
+ <button>😊,<span>0</span></button>
+<div> 
  </main>
 <footer>rodapek</footer>
 </body>
+<script>
+ const botao=document.querySelector("button");//cria uma variável chamada botão selecionando a tag "button"
+ botao.addEventListener("click", botaoClicado);// verificar se o botão foi clicado
+  function botaoClicado(){// cria uma função 
+    console.log("fui clicado"); //mostra se o botão foi clicado
+    let texto=document,querySelector("span");//cria uma variavel chamada "texto" selecionando a tag span
+    texto.textContent++; //muda o valor do texto adicionando de uma unidade
+
+
+}
+
+</script>
 </html>
 
