@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <header>
-    <h1> meu blog tech</h1> <!--Tag para título-->
-    <p> vou compartilar conhecimentos sobre tecnologia e programação</p>
-   </header>
-    <main>  
- <img src="logotipo.jpg" alt="imagem de um livro com chapeu de formatura">
-<h2> Meu primeiro post </h2>
-<p>Por:Adria horchulhak</p>
-<p>Boas-vindas ao meu blog!</p>
- <button>❤️,<span>0</span></button>
- <button>😊,<span>0</span></button>
-<div> 
- </main>
-<footer>rodapek</footer>
+    <header>
+        <h1> meu blog tech</h1> <!--Tag para título-->
+        <p> vou compartilar conhecimentos sobre tecnologia e programação</p>
+    </header>
+    <main>
+        <img src="logotipo.jpg" alt="imagem de um livro com chapeu de formatura">
+        <h2> Meu primeiro post </h2>
+        <p>Por:Adria horchulhak</p>
+        <p>Boas-vindas ao meu blog!</p>
+        <button>❤️<span>0</span></button>
+        <button>😊<span>0</span></button>
+        <div>
+    </main>
+    <footer>rodapek</footer>
 </body>
 <script>
- const botao=document.querySelector("button");//cria uma variável chamada botão selecionando a tag "button"
- botoes.forEach(function(botao){
- botao.addEventListener("click", botaoClicado);// verificar se o botão foi clicado
-  function botaoClicado(){// cria uma função 
-    console.log("fui clicado"); //mostra se o botão foi clicado
-    let texto=document,querySelector("span");//cria uma variavel chamada "texto" selecionando a tag span
-    texto.textContent++; //muda o valor do texto adicionando de uma unidade
+    const botoes = document.querySelectorAll("button");//cria uma variável chamada botão selecionando a tag "button"
+    botoes.forEach(function (botao) {
+        botao.addEventListener("click", botaoClicado);// verificar se o botão foi clicado
+        function botaoClicado() {// cria uma função 
+            console.log("fui clicado"); //mostra se o botão foi clicado
+            let texto = document, querySelector("span");//cria uma variavel chamada "texto" selecionando a tag span
+            texto.textContent++; //muda o valor do texto adicionando de uma unidade
 
 
-}
- })
+        }
+    })
 </script>
-</html>
 
+</html>
