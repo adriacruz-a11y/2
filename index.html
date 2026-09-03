@@ -26,13 +26,25 @@
 </body>
 <script>
     const botoes = document.querySelectorAll("button");//cria uma variável chamada botão selecionando a tag "button"
-    botoes.forEach(function (botao) {
+            let like=botoe[0]
+           let deslike=botoes[1]
+      botoes.forEach(function (botao) {
         botao.addEventListener("click", botaoClicado);// verificar se o botão foi clicado
+         
         function botaoClicado() {// cria uma função 
             console.log("fui clicado"); //mostra se o botão foi clicado
             let texto=document.querySelector("span");//cria uma variavel chamada "texto" selecionando a tag span
             texto.textContent++; //muda o valor do texto adicionando de uma unidade
+            let texto = botão.querySelector("span");
+            if(curtiu === false){
+            texto.textContent++;
+            curtiu = false;
+         } else if(naocurtiu===true){
+           textContent++;
+           console.log("naocurtiu");
+           naocurtiu = false;
 
+         }
 
         }
     })
